@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <title>Hi Brain</title>
+</head>
+<body>
+    <header class="header">
+        <div class="container df-align-center-justify-between">
+            <div class="header-wrapper df-align-center-justify-between">
+                <a class="logo-link" href="#">
+                    <img src="images/logotip.svg" alt="Логотип">
+                </a>
+                <button class="btn-reset">
+                    <img src="images/search.svg" alt="Поиск">
+                </button>
+                <a class="header-link btn-styles" href="#">Разместить объявление</a>
+            </div>
+            <button class="btn-reset btn-login">Войти</button>
+        </div>   
+    </header>
+        <main>
+            <section class="section1 grid">
+                <div class="section1wrapper grid">
+                    <h1 class="sec1title">Доска объявлений</h1>
+                    <p class="sec1text">Обо всех важных событиях IT и Digital мира: дайджесты курсов, полезные ресурсы, митапы, конференции, хакатоны и новости от команды HiBrain</p>
+                    <img src="images/headerbg.png" alt="Картинка" class="sec1img">
+                    <div class="sec1input">
+                        <input type="text" placeholder="Поиск" class="sec1search">
+                        <button class="btn-reset btn-search">
+                            <img src="images/search.svg" alt="Иконка поиска">
+                        </button>
+                    </div>
+                </div>
+            </section>
+            <section class="section2">
+                <h2> </h2>
+                <div class="container">
+                    <nav >
+                        <ul class="nav df-align-center-justify-between">
+                            <li><a href="#" class="btn-styles btn-reset">Вся доска</a></li>
+                            <li><a href="#" class="nav__list btn-reset btn-grey">Бытовая техника</a></li>
+                            <li><a href="#" class="nav__list">Одежда</a></li>
+                            <li><a href="#" class="nav__list">Автомобили</a></li>
+                            <li><a href="#" class="nav__list">Телефоны</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <h2 class="content__title">Вся лента</h2>
+                <div class="cards">
+                    <div class="card">
+                        <div class="card__img">
+                            <img src="images/ears.png" alt="Картинка">
+                            <button class="btn-reset btn-styles card__btn">Техника</button>
+                        </div>
+                        <div class="card__text">
+                            <h3 class="card__text__title">Стиральная машина Bosch</h3>
+                            <p>Уходящий год для айтишников прошёл под девизом: «Work hard, learn more».</p>
+                            <p class="card__text__sum">1000 Р</p>
+                            <div class="card__text__date df-align-center-justify-between">
+                                <time datetime="2021-04-14">14 апреля 2021</time>
+                                <div class="card__text__views">
+                                    <img src="images/eye.svg" alt="глаз">
+                                    <p>356</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card2">
+                        <div class="card__img">
+                            <img src="images/fireworks.png" alt="Картинка">
+                            <button class="btn-reset btn-styles card__btn">Одежда</button>
+                        </div>
+                        <div class="card__text">
+                            <h3 class="card__text__title">Шапочка</h3>
+                            <p>Уходящий год для айтишников прошёл под девизом: «Work hard, learn more».</p>
+                            <div class="card__text__date2 df-align-center-justify-between">
+                                <time datetime="2021-04-14">14 апреля 2021</time>
+                                <div class="card__text__views">
+                                    <img src="images/eye.svg" alt="глаз">
+                                    <p>356</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card2">
+                        <div class="card__img">
+                            <img src="images/fireworks.png" alt="Картинка">
+                            <button class="btn-reset btn-styles card__btn">Одежда</button>
+                        </div>
+                        <div class="card__text">
+                            <h3 class="card__text__title">Шапочка</h3>
+                            <p>Уходящий год для айтишников прошёл под девизом: «Work hard, learn more».</p>
+                            <div class="card__text__date2 df-align-center-justify-between">
+                                <time datetime="2021-04-14">14 апреля 2021</time>
+                                <div class="card__text__views">
+                                    <img src="images/eye.svg" alt="глаз">
+                                    <p>356</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card2">
+                        <div class="card__img">
+                            <img src="images/ears.png" alt="Картинка">
+                            <button class="btn-reset btn-styles card__btn">Статьи</button>
+                        </div>
+                        <div class="card__text">
+                            <h3 class="card__text__title">Дайджест IT-вакансий за март 2021</h3>
+                            <p>Актуальные вакансии Intern и Junior IT-разработчикам в Нижнем Новгороде. Предложения работы от партнёров платформы подготовки и трудоустройства IT-специалистов HiBrain.</p>
+                            <div class="card__text__date3 df-align-center-justify-between">
+                                <time datetime="2021-04-14">14 апреля 2021</time>
+                                <div class="card__text__views">
+                                    <img src="images/eye.svg" alt="глаз">
+                                    <p>356</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card2">
+                        <div class="card__img">
+                            <img src="images/fireworks.png" alt="Картинка">
+                            <button class="btn-reset btn-styles card__btn">Статьи</button>
+                        </div>
+                        <div class="card__text">
+                            <h3 class="card__text__title">С Новым 2021 годом!</h3>
+                            <p>Уходящий год для айтишников прошёл под девизом: «Work hard, learn more».</p>
+                            <div class="card__text__date2 df-align-center-justify-between">
+                                <time datetime="2021-04-14">14 апреля 2021</time>
+                                <div class="card__text__views">
+                                    <img src="images/eye.svg" alt="глаз">
+                                    <p>356</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card2">
+                        <div class="card__img">
+                            <img src="images/fireworks.png" alt="Картинка">
+                            <button class="btn-reset btn-styles card__btn">Статьи</button>
+                        </div>
+                        <div class="card__text">
+                            <h3 class="card__text__title">С Новым 2021 годом!</h3>
+                            <p>Уходящий год для айтишников прошёл под девизом: «Work hard, learn more».</p>
+                            <div class="card__text__date2 df-align-center-justify-between">
+                                <time datetime="2021-04-14">14 апреля 2021</time>
+                                <div class="card__text__views">
+                                    <img src="images/eye.svg" alt="глаз">
+                                    <p>356</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card2">
+                        <div class="card__img">
+                            <img src="images/ears.png" alt="Картинка">
+                            <button class="btn-reset btn-styles card__btn">Статьи</button>
+                        </div>
+                        <div class="card__text">
+                            <h3 class="card__text__title">Дайджест IT-вакансий за март 2021</h3>
+                            <p>Актуальные вакансии Intern и Junior IT-разработчикам в Нижнем Новгороде. Предложения работы от партнёров платформы подготовки и трудоустройства IT-специалистов HiBrain.</p>
+                            <div class="card__text__date3 df-align-center-justify-between">
+                                <time datetime="2021-04-14">14 апреля 2021</time>
+                                <div class="card__text__views">
+                                    <img src="images/eye.svg" alt="глаз">
+                                    <p>356</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card2">
+                        <div class="card__img">
+                            <img src="images/fireworks.png" alt="Картинка">
+                            <button class="btn-reset btn-styles card__btn">Статьи</button>
+                        </div>
+                        <div class="card__text">
+                            <h3 class="card__text__title">С Новым 2021 годом!</h3>
+                            <p>Уходящий год для айтишников прошёл под девизом: «Work hard, learn more».</p>
+                            <div class="card__text__date2 df-align-center-justify-between">
+                                <time datetime="2021-04-14">14 апреля 2021</time>
+                                <div class="card__text__views">
+                                    <img src="images/eye.svg" alt="глаз">
+                                    <p>356</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card2">
+                        <div class="card__img">
+                            <img src="images/fireworks.png" alt="Картинка">
+                            <button class="btn-reset btn-styles card__btn">Статьи</button>
+                        </div>
+                        <div class="card__text">
+                            <h3 class="card__text__title">С Новым 2021 годом!</h3>
+                            <p>Уходящий год для айтишников прошёл под девизом: «Work hard, learn more».</p>
+                            <div class="card__text__date2 df-align-center-justify-between">
+                                <time datetime="2021-04-14">14 апреля 2021</time>
+                                <div class="card__text__views">
+                                    <img src="images/eye.svg" alt="глаз">
+                                    <p>356</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="btn-reset btn__showmore"><img src="images/arrows.svg" alt="еще"><p>Загрузить еще</p></button>
+            </section>
+        </main>
+        <footer class="footer">
+            <div class="container footer__upper df-align-center-justify-between">
+                <div class="footer__top">
+                    <img src="images/LogoW.svg" alt="Логотип" class="footer__logo">
+                    <p class="footer__text">Платформа подготовки и трудоустройства IT-специалистов</p>
+                </div>
+                <div class="footer__logos">
+                    <a href="#"><img src="images/Face.svg" alt="Фб"></a>
+                    <a href="#"><img src="images/Inst.svg" alt="Инст"></a>
+                    <a href="#"><img src="images/VK.svg" alt="VK"></a>
+                </div>
+            </div>
+            <nav class="container">
+                <ul class="nav__footer df-align-center-justify-between">
+                    <li class="nav__footer__list"><a href="#">Курсы</a></li>
+                    <li class="nav__footer__list"><a href="#">Трудоустройство</a></li>
+                    <li class="nav__footer__list"><a href="#">Сотрудничество</a></li>
+                    <li class="nav__footer__list"><a href="#">О Hibrain</a></li>
+                    <li class="nav__footer__list"><a href="#">Новости</a></li>
+                    <li class="nav__footer__list"><a href="#">Контакты</a></li>
+                </ul>
+            </nav>
+            <div class="footer__bottom df-align-center-justify-between">
+                <p>© ООО «Лад Ай Ти», 2020</p>
+                <div class="white__color">
+                    <a href="#" class="footer__bottom__und">Политика конфиденциальности</a>
+                    <a href="mailto:">support@hibrain.pro</a>
+                    <a href="tel:+">8 800 000 00 00</a>
+                </div>
+            </div>
+        </footer>
+</body>
+</html>
