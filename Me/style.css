@@ -1,0 +1,148 @@
+body {
+    font-family: 'Merriweather', sans-serif;
+    background-image: url(img/bg.jpg);
+    background-repeat: no-repeat;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    max-width: 1140px;
+    margin: 0 auto;
+    border-bottom: 2px solid black;
+}
+
+.container-title {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.socials {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.socials-text {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.logo {
+    height: 28px;
+    width: 28px;
+}
+
+.name {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    padding-top: 60px;
+    max-width: 1140px;
+}
+
+.name-title {
+    font-size: 34px;
+    font-weight: 600;
+}
+
+.name-text {
+    font-size: 24px;
+}
+
+.content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    border-bottom: 2px solid #000;
+    margin: 0 auto;
+    max-width: 1140px;
+}
+
+.content-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 24px;
+    text-align: center;
+}
+
+.content-icon {
+    width: 160px;
+    height: 160px;
+}
+
+.future {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 0 auto;
+    padding-top: 40px;
+    max-width: 1140px;
+}
+
+.footer {
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width: 751px) {
+    .name {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0 auto;
+        padding-top: 20px;
+    }    
+    .content {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+        border-bottom: 2px solid #000;
+        margin: 0 auto;
+    }
+    .content-icon {
+        width: 120px;
+        height: 120px;
+    }
+    .name-text {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 633px) {
+    .content {
+        display: grid;
+        grid-template-columns: 1fr;
+        border-bottom: 2px solid #000;
+        margin: 0 auto;
+    }
+    .content-icon {
+        width: 100px;
+        height: 100px;
+    }
+    .future {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin: 0 auto;
+        padding-top: 0px;
+    }
+}
+
+@media (max-width: 499px) {
+    .name {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0 auto;
+        padding-top: 0;
+    }
+    .content-icon {
+        width: 80px;
+        height: 80px;
+    }
+}
